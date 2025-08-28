@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+        <style>
+            .logo-clinica {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 200px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- EDITE AQUI: Título da página -->
+    <title>REAL SORRISO - Verificação de Atestado Médico</title>
+    
+    <style>
+        /* Estilos CSS baseados no sistema original */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            min-height: 100vh;
+        }
+
+        /* Cabeçalho do Sistema */
+        .system-header {
+            background-color: #e8e8e8;
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            border-bottom: 2px solid #ccc;
+        }
+
+        /* Cabeçalho Principal */
+        .main-header {
+            background-color: #f0f0f0;
+            border: 2px solid #999;
+            padding: 20px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            margin: 0;
+        }
+
+        /* Seção da Unidade de Saúde */
+        .health-unit {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            border-left: 2px solid #999;
+            border-right: 2px solid #999;
+            background-color: white;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo {
+            width: 130px;
+            height: 100px;
+            background: none;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+        }
+        .logo * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .unit-name {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .sus-logo {
+            width: 100px;
+            height: 70px;
+            background-color: #0066cc;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .real-sorriso-logo {
+            width: 130px;
+            height: 100px;
+            background-color: #0072dc;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 22px;
+            border-radius: 10px;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        /* Seção de Autenticidade */
+        .authenticity-section {
+            background-color: #f8f8f8;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            border-left: 2px solid #999;
+            border-right: 2px solid #999;
+            font-size: 14px;
+        }
+
+        /* Tabela de Informações */
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            border-left: 2px solid #999;
+            border-right: 2px solid #999;
+        }
+
+        .info-table td {
+            padding: 12px 15px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        .info-table .label {
+            background-color: #f0f0f0;
+            font-weight: bold;
+            width: 50%;
+        }
+
+        .info-table .value {
+            background-color: white;
+            width: 50%;
+        }
+
+        .info-table .full-width {
+            width: 100%;
+            text-align: center;
+            background-color: #f8f8f8;
+            font-weight: bold;
+        }
+
+        /* Códigos especiais */
+        .code-section {
+            background-color: #f0f0f0;
+            padding: 10px 15px;
+            border: 1px solid #ccc;
+            font-family: monospace;
+            font-size: 12px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .health-unit {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+
+            .logo-section {
+                flex-direction: column;
+            }
+
+            .info-table td {
+                padding: 8px;
+                font-size: 12px;
+            }
+
+            .unit-name {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Logo da clínica removida do topo -->
+    <div class="container">
+        <!-- Cabeçalho do Sistema -->
+        <div class="system-header">
+            <!-- EDITE AQUI: Nome do sistema -->
+            SISTEMA REAL SORRISO
+        </div>
+
+        <!-- Título Principal -->
+        <div class="main-header">
+            <!-- EDITE AQUI: Título principal do documento -->
+            CHECAGEM DE VALIDADE DE ATESTADO MÉDICO NA CLINICA REAL SORRISO
+        </div>
+
+        <!-- Seção da Unidade de Saúde -->
+        <div class="health-unit">
+            <div class="logo-section">
+                <!-- EDITE AQUI: Logo da cidade/município -->
+                <div class="logo">
+                    <img src="WhatsApp Image 2025-08-27 at 15.17.21.jpeg" alt="Logo da Clínica" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;" />
+                </div>
+                <!-- EDITE AQUI: Nome da unidade de saúde -->
+                <div class="unit-name">
+                    DANIELA E ANDRADE DOS SANTOS CLINICA ODONTOLOGICA 
+                </div>
+            </div>
+            <!-- EDITE AQUI: Logo do SUS (pode manter ou alterar) -->
+            <!-- Quadrado 'REAL SORRISO' removido -->
+        </div>
+
+        <!-- Seção de Autenticidade -->
+        <div class="authenticity-section">
+            <!-- EDITE AQUI: Texto de autenticidade -->
+            ATESTAMOS A AUTENTICIDADE DESTE ATESTADO PARA.:
+        </div>
+
+        <!-- Tabela de Informações do Paciente -->
+        <table class="info-table">
+            <!-- EDITE AQUI: Nome do paciente e telefone -->
+            <tr>
+                <td class="label">Eduardo Souza de Oliveira</td>
+                <td class="value">Telefone.:(81) 9 96524777/(__) _ ____-____</td>
+            </tr>
+            
+            <!-- EDITE AQUI: Dias de afastamento -->
+            <tr>
+                <td class="label">DIAS DE AFASTAMENTO</td>
+                <td class="value">3</td>
+            </tr>
+            
+            <!-- EDITE AQUI: CPF e CNS -->
+            <tr>
+                <td class="label">CPF.:110***594-**</td>
+                <td class="value">cns.:602****52*****</td>
+            </tr>
+            
+            <!-- EDITE AQUI: Endereço e bairro -->
+            <tr>
+                <td class="label">Residente.:Rua Vereador José Cassimiro Silva Nº180</td>
+                <td class="value">Bairro.:COHAB</td>
+            </tr>
+            
+            <!-- EDITE AQUI: ID do atendimento e datas -->
+            <tr>
+                <td class="label">ID do Atendimento.:302587</td>
+                <td class="value">Hora da entrada:11/08/2025 14:37:47<br>Data Atend..:11/08/2025 15:50:43</td>
+            </tr>
+        </table>
+
+        <!-- Código do Prontuário -->
+        <div class="code-section">
+            <!-- EDITE AQUI: Código do prontuário -->
+            Código Prontuario.:@MTZLA-9-3F1C8B5D77E94F28A6C9E2AD10BC71FE
+        </div>
+
+        <!-- Código do Atendimento -->
+        <div class="code-section">
+            <!-- EDITE AQUI: Código do atendimento -->
+            Código Atendimento.:89AF23D4C771EA56F3C112A5A0D9BBF7
+        </div>
+
+        <!-- Médico Emissor -->
+        <div class="code-section">
+            <!-- EDITE AQUI: Nome do médico e CRM -->
+            Médica Emissor do Atestado.:DANIELA ELAINE ANDRADE DOS SANTOS -.:CRO-10151-PE
+        </div>
+    </div>
+
+    <script>
+        // JavaScript para funcionalidades adicionais
+        
+        // Função para imprimir o documento
+        function imprimirAtestado() {
+            window.print();
+        }
+
+        // Executar quando a página carregar
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Sistema SALUS - Atestado carregado com sucesso');
+            
+            // Adicionar botão de impressão
+            const container = document.querySelector('.container');
+            if (container) {
+                const printButton = document.createElement('button');
+                printButton.textContent = '🖨️ Imprimir Atestado';
+                printButton.style.cssText = `
+                    position: fixed;
+                    top: 20px;
+                    right: 20px;
+                    padding: 10px 15px;
+                    background-color: #007bff;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    font-size: 14px;
+                    z-index: 1000;
+                `;
+                printButton.onclick = imprimirAtestado;
+                document.body.appendChild(printButton);
+            }
+        });
+    </script>
+</body>
+</html>
+
